@@ -1,0 +1,80 @@
+/* Estilos para index.html */
+.center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li {
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: rgb(130, 9, 243);
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color: rgb(55, 54, 56);
+}
+
+.paragrafo{
+    padding: 30px;
+    text-align: justify;
+}
+
+.img{
+    border-radius: 30%;
+    padding: 30px;
+    width: 420px;
+    height: 420px;
+}
+
+.tm-social{
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+}
+
+.video{
+    margin-bottom: 50px;
+    width: 600px;
+    height: 350px;
+    border-radius: 1rem;
+    display: block;
+    border: 3px solid purple;
+}
+
+/* Estilos para contato.html */
+
+.endereco{
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    width: 30vw;
+    border-radius: 2rem;
+    display: block;
+    border: 3px solid purple;
+}
+
+.fundo{
+    background-color: rgb(190, 188, 201);
+}
+
+.mensagem{
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    width: 35vw;
+    border-radius: 2rem;
+    display: block;
+    border: 3px solid purple;
+    padding-bottom: 10px;
+}
